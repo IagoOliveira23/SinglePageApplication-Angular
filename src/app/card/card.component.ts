@@ -24,7 +24,7 @@ export class CardComponent implements OnInit{
     this.protudos.push("iago")  
   }
 
-  remover(){
-    this.protudos.pop()  
+  remover(index:number){
+    this.protudos.splice(index, 1)
   }
 }
