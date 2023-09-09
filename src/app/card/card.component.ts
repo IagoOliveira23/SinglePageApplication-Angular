@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CardComponent implements OnInit{
   
   protudos:string[] = []
+  menuType:string = "superadmin"
 
   constructor(){
     this.protudos = [
